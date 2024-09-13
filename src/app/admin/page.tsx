@@ -4,12 +4,13 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 export default function AdminPanel() {
+    //@ts-ignore
     const [products, setProducts] = useState([
         { id: 1, name: 'Product 1', price: 19.99, stock: 100 },
         { id: 2, name: 'Product 2', price: 29.99, stock: 50 },
         { id: 3, name: 'Product 3', price: 39.99, stock: 75 },
     ]);
-
+    //@ts-ignore
     const [orders, setOrders] = useState([
         { id: 1, customer: 'John Doe', total: 59.98, status: 'Pending' },
         { id: 2, customer: 'Jane Smith', total: 39.99, status: 'Shipped' },
