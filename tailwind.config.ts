@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkBiege: "#d5b990",
+        fonnt: "#291f0f",
+        lightBiege: "#ece3d4",
+        categories: "#d4c3aa",
+        whiteBiege: "#f8f2eb"
+
       },
     },
   },
