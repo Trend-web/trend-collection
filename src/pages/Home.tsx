@@ -1,7 +1,7 @@
 'use client'
 import Button from "@/components/Button"
 import { Heading } from "@/components/Heading"
-import { SubHeading } from "@/components/SubHeading"
+
 import ProductCard from "@/components/ProductCard"
 import { useRouter } from "next/navigation"
 
@@ -16,7 +16,7 @@ export default function HomePage(){
         <div className="flex flex-col text-center gap-8 p-10 items-center" >
         <div className="flex flex-col items-center gap-10">
         <Heading label='Your Stop for Top Quality Garments with Affordable Pricing.'/>
-        <SubHeading label='Discover latest trends and designs in many different styles from our collection.'/>
+        <p className="text-5xl">Discover latest trends and designs in many different styles from our collection.</p>
         </div>
         <Button onClick={()=>{router.push('/products')}} label='Shop Now!'/>
         </div>

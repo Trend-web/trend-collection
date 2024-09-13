@@ -1,5 +1,3 @@
-
-
 'use client';
 
 import { useState } from 'react';
@@ -50,7 +48,7 @@ export default function Home() {
                     </button>
                 </form>
                 <p className="mt-4 text-center text-sm text-fonnt">
-                    Don't have an account? <Link href="/signup" className=" hover:underline">Sign Up</Link>
+                    {"Don't have an account? "}<Link href="/signup" className="hover:underline">Sign Up</Link>
                 </p>
             </div>
         </div>

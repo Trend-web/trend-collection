@@ -2,7 +2,7 @@ import { FaInstagramSquare } from "react-icons/fa"
 import { FaWhatsappSquare } from "react-icons/fa"
 import { FaPhoneAlt } from "react-icons/fa"
 import { CgMail } from "react-icons/cg"
-import { SubHeading } from "./SubHeading"
+
 
 export default function Footer(){
     return <div>
